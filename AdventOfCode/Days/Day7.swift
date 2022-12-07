@@ -16,7 +16,7 @@ final class Day7: Day {
     }
 
     func part2(_ input: String) -> CustomStringConvertible {
-        return 0
+        return calculateFreeSpace(root: parseInput(input: input))
     }
     
     func parseInput(input: String) -> Folder {
@@ -28,7 +28,6 @@ final class Day7: Day {
 
             switch commands.first {
             case "$":
-                let command = commands[1]
                 let target = commands.count == 3 ? commands[2] : nil
                 if target != nil {
                     // move
@@ -97,6 +96,38 @@ func flattenedFolderArray(root: Folder) -> [Folder] {
     for folder in root.folders {
         let result = flattenedFolderArray(root: folder)
         folders.append(contentsOf: result)
+    }
+    
+    return folders
+}
+
+func calculateFreeSpace(root: Folder) -> Int {
+    let totalSize = 70000000
+    let requiredFreeSpace = 30000000
+    let rootFolderSize = getSizeFor(folder: root)
+    let unusedSpace = totalSize - rootFolderSize
+    let neededSpace = requiredFreeSpace - unusedSpace
+    let folders = getFoldersOverSizeFrom(folder: root, minSize: neededSpace)
+    let spaceFreed = folders.map{ getSizeFor(folder: $0) }
+    return spaceFreed.min()!
+}
+
+
+func getFoldersOverSizeFrom(folder: Folder, minSize: Int) -> [Folder] {
+
+    var folders = [Folder]()
+ 
+    let currrentFolderSize = getSizeFor(folder: folder)
+    if currrentFolderSize > minSize {
+        folders.append(folder)
+    }
+    
+    let childFolders = flattenedFolderArray(root: folder)
+    for folder in childFolders {
+        let score = getSizeFor(folder: folder)
+        if score > minSize {
+            folders.append(folder)
+        }
     }
     
     return folders
