@@ -26,3 +26,13 @@ extension Substring {
         return self[index(startIndex, offsetBy: range.lowerBound)..<index(startIndex, offsetBy: range.upperBound)]
     }
 }
+
+extension Character {
+    static let alphabetValue = zip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 1...52).reduce(into: [:]) { $0[$1.0] = $1.1 }
+    var letterValue: Int? { Self.alphabetValue[self] }
+}
+
+extension String {
+    var wordValue: Int { compactMap(\.letterValue).reduce(0, +) }
+}
+

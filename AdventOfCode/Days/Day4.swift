@@ -55,15 +55,3 @@ final class Day4: Day {
         return score
     }
 }
-
-extension Range {
-    static func ~=(lhs: Self, rhs: Self) -> Bool {
-        rhs.clamped(to: lhs) == rhs
-    }
-}
-
-extension ClosedRange {
-    static func ~=(lhs: Self, rhs: Self) -> Bool {
-        rhs.clamped(to: lhs) == rhs
-    }
-}

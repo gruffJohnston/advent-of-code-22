@@ -36,6 +36,4 @@ final class Day4Tests: XCTestCase {
 """) as? Int,
             4)
     }
-
-
 }

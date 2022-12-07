@@ -46,18 +46,4 @@ final class Day3: Day {
 }
 
 
-extension Character {
-    static let alphabetValue = zip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 1...52).reduce(into: [:]) { $0[$1.0] = $1.1 }
-    var letterValue: Int? { Self.alphabetValue[self] }
-}
 
-extension String {
-    var wordValue: Int { compactMap(\.letterValue).reduce(0, +) }
-}
-
-extension RangeReplaceableCollection where Element: Hashable {
-    var squeezed: Self {
-        var set = Set<Element>()
-        return filter{ set.insert($0).inserted }
-    }
-}

@@ -11,7 +11,6 @@ final class Day6: Day {
 
     func part1(_ input: String) -> CustomStringConvertible {
         return getMarkerForPacket(size: 4, input: input)
-
     }
 
     func part2(_ input: String) -> CustomStringConvertible {

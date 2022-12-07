@@ -31,6 +31,9 @@
 		DB0A1900293F4D830082EAE9 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A18FF293F4D830082EAE9 /* Day6.swift */; };
 		DB0A1901293F4D830082EAE9 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A18FF293F4D830082EAE9 /* Day6.swift */; };
 		DB0A1903293F4D9A0082EAE9 /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A1902293F4D9A0082EAE9 /* Day6Tests.swift */; };
+		DB0A19052940976C0082EAE9 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A19042940976C0082EAE9 /* Day7.swift */; };
+		DB0A1907294097740082EAE9 /* Day7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A1906294097740082EAE9 /* Day7Tests.swift */; };
+		DB0A1908294097DB0082EAE9 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A19042940976C0082EAE9 /* Day7.swift */; };
 		DB61FAB6293D2FA200809C7A /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB2293D2FA200809C7A /* Day3.swift */; };
 		DB61FAB7293D2FA200809C7A /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB3293D2FA200809C7A /* Day2.swift */; };
 		DB61FAB8293D2FA200809C7A /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB4293D2FA200809C7A /* Day1.swift */; };
@@ -73,6 +76,8 @@
 		DB0A18FB293DF3FA0082EAE9 /* Day5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5Tests.swift; sourceTree = "<group>"; };
 		DB0A18FF293F4D830082EAE9 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		DB0A1902293F4D9A0082EAE9 /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
+		DB0A19042940976C0082EAE9 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
+		DB0A1906294097740082EAE9 /* Day7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7Tests.swift; sourceTree = "<group>"; };
 		DB61FAB2293D2FA200809C7A /* Day3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		DB61FAB3293D2FA200809C7A /* Day2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		DB61FAB4293D2FA200809C7A /* Day1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -163,6 +168,7 @@
 				DB61FAB5293D2FA200809C7A /* Day4.swift */,
 				DB0A18F9293DF3F10082EAE9 /* Day5.swift */,
 				DB0A18FF293F4D830082EAE9 /* Day6.swift */,
+				DB0A19042940976C0082EAE9 /* Day7.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -176,6 +182,7 @@
 				DB61FAC1293D2FB400809C7A /* Day4Tests.swift */,
 				DB0A18FB293DF3FA0082EAE9 /* Day5Tests.swift */,
 				DB0A1902293F4D9A0082EAE9 /* Day6Tests.swift */,
+				DB0A1906294097740082EAE9 /* Day7Tests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -280,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				392786D3275B9DE000922454 /* PrintIt.swift in Sources */,
+				DB0A19052940976C0082EAE9 /* Day7.swift in Sources */,
 				DB61FAB7293D2FA200809C7A /* Day2.swift in Sources */,
 				39C3D07B27556CA700B2F989 /* Day.swift in Sources */,
 				392786D0275921D100922454 /* String+Helpers.swift in Sources */,
@@ -314,7 +322,9 @@
 				DB61FAC5293D2FB400809C7A /* Day4Tests.swift in Sources */,
 				DB61FABC293D2FA500809C7A /* Day3.swift in Sources */,
 				39C3D0B62755746500B2F989 /* Day.swift in Sources */,
+				DB0A1907294097740082EAE9 /* Day7Tests.swift in Sources */,
 				DB61FABB293D2FA500809C7A /* Day1.swift in Sources */,
+				DB0A1908294097DB0082EAE9 /* Day7.swift in Sources */,
 				DB0A18FD293DF4390082EAE9 /* Day5.swift in Sources */,
 				DB61FABA293D2FA500809C7A /* Day4.swift in Sources */,
 				DB61FAC4293D2FB400809C7A /* Day3Tests.swift in Sources */,

@@ -16,3 +16,22 @@ extension Array {
         }
     }
 }
+
+extension RangeReplaceableCollection where Element: Hashable {
+    var squeezed: Self {
+        var set = Set<Element>()
+        return filter{ set.insert($0).inserted }
+    }
+}
+
+extension Range {
+    static func ~=(lhs: Self, rhs: Self) -> Bool {
+        rhs.clamped(to: lhs) == rhs
+    }
+}
+
+extension ClosedRange {
+    static func ~=(lhs: Self, rhs: Self) -> Bool {
+        rhs.clamped(to: lhs) == rhs
+    }
+}
