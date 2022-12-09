@@ -7,9 +7,6 @@
 
 import Foundation
 
-
-import Foundation
-
 final class Day8: Day {
     
     func part1(_ input: String) -> CustomStringConvertible {

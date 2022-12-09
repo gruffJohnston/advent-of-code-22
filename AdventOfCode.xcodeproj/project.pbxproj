@@ -37,6 +37,9 @@
 		DB0A190A2941E7AD0082EAE9 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A19092941E7AD0082EAE9 /* Day8.swift */; };
 		DB0A190F2941E7D70082EAE9 /* Day8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */; };
 		DB0A19102942059A0082EAE9 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A19092941E7AD0082EAE9 /* Day8.swift */; };
+		DB0A191929433ADC0082EAE9 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191829433ADC0082EAE9 /* Day9.swift */; };
+		DB0A191A29433ADC0082EAE9 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191829433ADC0082EAE9 /* Day9.swift */; };
+		DB0A191D29433AE80082EAE9 /* Day9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191B29433AE80082EAE9 /* Day9Tests.swift */; };
 		DB61FAB6293D2FA200809C7A /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB2293D2FA200809C7A /* Day3.swift */; };
 		DB61FAB7293D2FA200809C7A /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB3293D2FA200809C7A /* Day2.swift */; };
 		DB61FAB8293D2FA200809C7A /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB4293D2FA200809C7A /* Day1.swift */; };
@@ -83,6 +86,8 @@
 		DB0A1906294097740082EAE9 /* Day7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7Tests.swift; sourceTree = "<group>"; };
 		DB0A19092941E7AD0082EAE9 /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 		DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
+		DB0A191829433ADC0082EAE9 /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
+		DB0A191B29433AE80082EAE9 /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
 		DB61FAB2293D2FA200809C7A /* Day3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		DB61FAB3293D2FA200809C7A /* Day2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		DB61FAB4293D2FA200809C7A /* Day1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -175,6 +180,7 @@
 				DB0A18FF293F4D830082EAE9 /* Day6.swift */,
 				DB0A19042940976C0082EAE9 /* Day7.swift */,
 				DB0A19092941E7AD0082EAE9 /* Day8.swift */,
+				DB0A191829433ADC0082EAE9 /* Day9.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				DB0A1902293F4D9A0082EAE9 /* Day6Tests.swift */,
 				DB0A1906294097740082EAE9 /* Day7Tests.swift */,
 				DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */,
+				DB0A191B29433AE80082EAE9 /* Day9Tests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -299,6 +306,7 @@
 				39C3D07B27556CA700B2F989 /* Day.swift in Sources */,
 				392786D0275921D100922454 /* String+Helpers.swift in Sources */,
 				3927870E27678DC700922454 /* Position.swift in Sources */,
+				DB0A191929433ADC0082EAE9 /* Day9.swift in Sources */,
 				DB0A1900293F4D830082EAE9 /* Day6.swift in Sources */,
 				392786DB27623F8E00922454 /* Array+Helpers.swift in Sources */,
 				DB0A18FA293DF3F10082EAE9 /* Day5.swift in Sources */,
@@ -320,6 +328,7 @@
 				DB61FAC3293D2FB400809C7A /* Day1Tests.swift in Sources */,
 				392786462757B4E800922454 /* Sequence+Helpers.swift in Sources */,
 				DB0A1903293F4D9A0082EAE9 /* Day6Tests.swift in Sources */,
+				DB0A191A29433ADC0082EAE9 /* Day9.swift in Sources */,
 				392786DC27623F8E00922454 /* Array+Helpers.swift in Sources */,
 				392786D1275921D100922454 /* String+Helpers.swift in Sources */,
 				3927870F27678DC700922454 /* Position.swift in Sources */,
@@ -339,6 +348,7 @@
 				DB61FAC4293D2FB400809C7A /* Day3Tests.swift in Sources */,
 				DB61FABD293D2FA500809C7A /* Day2.swift in Sources */,
 				DB0A190F2941E7D70082EAE9 /* Day8Tests.swift in Sources */,
+				DB0A191D29433AE80082EAE9 /* Day9Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
