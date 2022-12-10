@@ -40,6 +40,9 @@
 		DB0A191929433ADC0082EAE9 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191829433ADC0082EAE9 /* Day9.swift */; };
 		DB0A191A29433ADC0082EAE9 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191829433ADC0082EAE9 /* Day9.swift */; };
 		DB0A191D29433AE80082EAE9 /* Day9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A191B29433AE80082EAE9 /* Day9Tests.swift */; };
+		DB3C558A2944E8D4006C195E /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C55892944E8D4006C195E /* Day10.swift */; };
+		DB3C558B2944E8D4006C195E /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C55892944E8D4006C195E /* Day10.swift */; };
+		DB3C558E2944E8DC006C195E /* Day10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C558C2944E8DC006C195E /* Day10Tests.swift */; };
 		DB61FAB6293D2FA200809C7A /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB2293D2FA200809C7A /* Day3.swift */; };
 		DB61FAB7293D2FA200809C7A /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB3293D2FA200809C7A /* Day2.swift */; };
 		DB61FAB8293D2FA200809C7A /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB4293D2FA200809C7A /* Day1.swift */; };
@@ -88,6 +91,8 @@
 		DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
 		DB0A191829433ADC0082EAE9 /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
 		DB0A191B29433AE80082EAE9 /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
+		DB3C55892944E8D4006C195E /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
+		DB3C558C2944E8DC006C195E /* Day10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10Tests.swift; sourceTree = "<group>"; };
 		DB61FAB2293D2FA200809C7A /* Day3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		DB61FAB3293D2FA200809C7A /* Day2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		DB61FAB4293D2FA200809C7A /* Day1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 				DB0A19042940976C0082EAE9 /* Day7.swift */,
 				DB0A19092941E7AD0082EAE9 /* Day8.swift */,
 				DB0A191829433ADC0082EAE9 /* Day9.swift */,
+				DB3C55892944E8D4006C195E /* Day10.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 				DB0A1906294097740082EAE9 /* Day7Tests.swift */,
 				DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */,
 				DB0A191B29433AE80082EAE9 /* Day9Tests.swift */,
+				DB3C558C2944E8DC006C195E /* Day10Tests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -311,6 +318,7 @@
 				392786DB27623F8E00922454 /* Array+Helpers.swift in Sources */,
 				DB0A18FA293DF3F10082EAE9 /* Day5.swift in Sources */,
 				392786452757B4E800922454 /* Sequence+Helpers.swift in Sources */,
+				DB3C558A2944E8D4006C195E /* Day10.swift in Sources */,
 				DB61FAB9293D2FA200809C7A /* Day4.swift in Sources */,
 				DB0A190A2941E7AD0082EAE9 /* Day8.swift in Sources */,
 				39C3D07127556C2F00B2F989 /* main.swift in Sources */,
@@ -343,6 +351,8 @@
 				DB61FABB293D2FA500809C7A /* Day1.swift in Sources */,
 				DB0A1908294097DB0082EAE9 /* Day7.swift in Sources */,
 				DB0A18FD293DF4390082EAE9 /* Day5.swift in Sources */,
+				DB3C558E2944E8DC006C195E /* Day10Tests.swift in Sources */,
+				DB3C558B2944E8D4006C195E /* Day10.swift in Sources */,
 				DB0A19102942059A0082EAE9 /* Day8.swift in Sources */,
 				DB61FABA293D2FA500809C7A /* Day4.swift in Sources */,
 				DB61FAC4293D2FB400809C7A /* Day3Tests.swift in Sources */,
