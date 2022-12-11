@@ -43,6 +43,9 @@
 		DB3C558A2944E8D4006C195E /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C55892944E8D4006C195E /* Day10.swift */; };
 		DB3C558B2944E8D4006C195E /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C55892944E8D4006C195E /* Day10.swift */; };
 		DB3C558E2944E8DC006C195E /* Day10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C558C2944E8DC006C195E /* Day10Tests.swift */; };
+		DB3C5590294633AE006C195E /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C558F294633AE006C195E /* Day11.swift */; };
+		DB3C5591294633AE006C195E /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C558F294633AE006C195E /* Day11.swift */; };
+		DB3C5593294633B8006C195E /* Day11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C5592294633B8006C195E /* Day11Tests.swift */; };
 		DB61FAB6293D2FA200809C7A /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB2293D2FA200809C7A /* Day3.swift */; };
 		DB61FAB7293D2FA200809C7A /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB3293D2FA200809C7A /* Day2.swift */; };
 		DB61FAB8293D2FA200809C7A /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61FAB4293D2FA200809C7A /* Day1.swift */; };
@@ -93,6 +96,8 @@
 		DB0A191B29433AE80082EAE9 /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
 		DB3C55892944E8D4006C195E /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		DB3C558C2944E8DC006C195E /* Day10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10Tests.swift; sourceTree = "<group>"; };
+		DB3C558F294633AE006C195E /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
+		DB3C5592294633B8006C195E /* Day11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Tests.swift; sourceTree = "<group>"; };
 		DB61FAB2293D2FA200809C7A /* Day3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		DB61FAB3293D2FA200809C7A /* Day2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		DB61FAB4293D2FA200809C7A /* Day1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -187,6 +192,7 @@
 				DB0A19092941E7AD0082EAE9 /* Day8.swift */,
 				DB0A191829433ADC0082EAE9 /* Day9.swift */,
 				DB3C55892944E8D4006C195E /* Day10.swift */,
+				DB3C558F294633AE006C195E /* Day11.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 				DB0A190E2941E7D70082EAE9 /* Day8Tests.swift */,
 				DB0A191B29433AE80082EAE9 /* Day9Tests.swift */,
 				DB3C558C2944E8DC006C195E /* Day10Tests.swift */,
+				DB3C5592294633B8006C195E /* Day11Tests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -321,6 +328,7 @@
 				DB3C558A2944E8D4006C195E /* Day10.swift in Sources */,
 				DB61FAB9293D2FA200809C7A /* Day4.swift in Sources */,
 				DB0A190A2941E7AD0082EAE9 /* Day8.swift in Sources */,
+				DB3C5590294633AE006C195E /* Day11.swift in Sources */,
 				39C3D07127556C2F00B2F989 /* main.swift in Sources */,
 				DB61FAB6293D2FA200809C7A /* Day3.swift in Sources */,
 				DB61FAB8293D2FA200809C7A /* Day1.swift in Sources */,
@@ -336,8 +344,10 @@
 				DB61FAC3293D2FB400809C7A /* Day1Tests.swift in Sources */,
 				392786462757B4E800922454 /* Sequence+Helpers.swift in Sources */,
 				DB0A1903293F4D9A0082EAE9 /* Day6Tests.swift in Sources */,
+				DB3C5593294633B8006C195E /* Day11Tests.swift in Sources */,
 				DB0A191A29433ADC0082EAE9 /* Day9.swift in Sources */,
 				392786DC27623F8E00922454 /* Array+Helpers.swift in Sources */,
+				DB3C5591294633AE006C195E /* Day11.swift in Sources */,
 				392786D1275921D100922454 /* String+Helpers.swift in Sources */,
 				3927870F27678DC700922454 /* Position.swift in Sources */,
 				392786402756AA9700922454 /* String+Regex.swift in Sources */,
