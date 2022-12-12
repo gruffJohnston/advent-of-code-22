@@ -11,14 +11,42 @@ final class Day12: Day {
     
     func part1(_ input: String) -> CustomStringConvertible {
         let lines = input.lines
+        let startingTile = getStartTile(lines: lines)!
 
-        let score = getShortestPathFrom(lines: lines)
+        let score = getShortestPathFrom(startingTile: startingTile,  lines: lines)
 
         return score
     }
     
-    func getShortestPathFrom(lines: [Substring]) -> Int {
-        let startingTile = getStartTile(lines: lines)!
+    
+    func part2(_ input: String) -> CustomStringConvertible {
+        let lines = input.lines
+        var distances = [Int]()
+        let aTiles = getATiles(lines: lines)
+        
+        for tile in aTiles {
+            let distance = getShortestPathFrom(startingTile: tile, lines: lines)
+            if distance > 0 {
+                distances.append(distance)
+            }
+        }
+        
+        return distances.min()!
+    }
+    
+    func getATiles(lines: [Substring]) -> [Tile] {
+        var tiles = [Tile]()
+        for (lineIndex, line) in lines.enumerated() {
+            for (rowIndex, letter) in line.enumerated() {
+                if letter == "a" {
+                    tiles.append(Tile(letter: "a", x: rowIndex, y: lineIndex))
+                }
+            }
+        }
+        return tiles
+    }
+    
+    func getShortestPathFrom(startingTile: Tile, lines: [Substring]) -> Int {
 
         var seen :Set<Tile> = [startingTile]
         var queue = [startingTile]
@@ -97,12 +125,7 @@ final class Day12: Day {
         
         return tiles
     }
-    
-    func part2(_ input: String) -> CustomStringConvertible {
 
-        return 0
-    }
-    
 }
 
 struct Tile: Hashable {
